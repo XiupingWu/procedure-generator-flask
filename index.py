@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-import json
 from welding_procedure_generator import WeldingProcedureGenerator
 
 app = Flask(__name__)
